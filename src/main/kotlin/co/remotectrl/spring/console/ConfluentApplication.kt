@@ -1,4 +1,4 @@
-package co.remotectrl.confluent
+package co.remotectrl.spring.console
 
 import org.slf4j.LoggerFactory
 import org.springframework.boot.CommandLineRunner

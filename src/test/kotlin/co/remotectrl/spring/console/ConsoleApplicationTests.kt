@@ -1,4 +1,4 @@
-package co.remotectrl.confluent
+package co.remotectrl.spring.console
 
 import org.junit.Test
 import org.junit.runner.RunWith
@@ -7,7 +7,7 @@ import org.springframework.test.context.junit4.SpringRunner
 
 @RunWith(SpringRunner::class)
 @SpringBootTest
-class ConfluentApplicationTests {
+class ConsoleApplicationTests {
 
 	@Test
 	fun contextLoads() {
