@@ -6,9 +6,9 @@ import org.springframework.boot.autoconfigure.SpringBootApplication
 import org.springframework.boot.runApplication
 
 @SpringBootApplication
-class SchemaRestConsoleApplication : CommandLineRunner {
+class ConsoleApplication : CommandLineRunner {
 
-    private val log = LoggerFactory.getLogger(SchemaRestConsoleApplication::class.java)
+    private val log = LoggerFactory.getLogger(ConsoleApplication::class.java)
 
 
     override fun run(vararg args: String?) {
@@ -17,5 +17,5 @@ class SchemaRestConsoleApplication : CommandLineRunner {
 }
 
 fun main(args: Array<String>) {
-    runApplication<SchemaRestConsoleApplication>(*args)
+    runApplication<ConsoleApplication>(*args)
 }
